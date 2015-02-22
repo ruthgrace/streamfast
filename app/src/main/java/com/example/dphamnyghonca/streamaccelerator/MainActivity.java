@@ -27,7 +27,7 @@ public class MainActivity extends ActionBarActivity {
 
         webview.getSettings().setJavaScriptEnabled(true);
         setContentView(webview);
-        
+
         final Activity activity = this;
         webview.setWebChromeClient(new WebChromeClient() {
             public void onProgressChanged(WebView view, int progress) {
