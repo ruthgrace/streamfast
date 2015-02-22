@@ -13,9 +13,9 @@ import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
 
         // Let's display the progress in the activity title bar, like the
         // browser app does.
@@ -44,8 +44,10 @@ public class MainActivity extends ActionBarActivity {
 
         //webview.loadUrl("http://developer.android.com/");
 
-        webview.loadUrl("file:///android_asset/test.html");
+        //webview.loadUrl("file:///android_asset/test.html");
+        webview.loadUrl("http://104.131.76.201:5000/");
         //WebSettings.setBuiltInZoomControls(true);
+
     }
 
 
