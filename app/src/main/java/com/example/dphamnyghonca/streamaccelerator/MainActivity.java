@@ -15,17 +15,19 @@ public class MainActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        WebView webview = new WebView(this);
-        setContentView(webview);
-        //setContentView(R.layout.activity_main);
+
 
         // Let's display the progress in the activity title bar, like the
         // browser app does.
         getWindow().requestFeature(Window.FEATURE_PROGRESS);
+        super.onCreate(savedInstanceState);
+
+        WebView webview = new WebView(this);
+        //setContentView(R.layout.activity_main);
 
         webview.getSettings().setJavaScriptEnabled(true);
-
+        setContentView(webview);
+        
         final Activity activity = this;
         webview.setWebChromeClient(new WebChromeClient() {
             public void onProgressChanged(WebView view, int progress) {
