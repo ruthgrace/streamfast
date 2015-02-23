@@ -24,7 +24,7 @@ http://developer.android.com/reference/android/webkit/WebView.html
 
 
 ###Notes to self
-this error is failure to load the debugger or something
+this error is failure to load the debugger or something. i don't think it's important.
 ```
 E/SELinux﹕ Function: selinux_android_load_priority [0], There is no sepolicy file
 E/SELinux﹕ Function: selinux_android_load_priority [1], There is no sepolicy version file
@@ -59,5 +59,5 @@ I've tried a simpler iframe embed in an html file that looks like this
 
 I've tried using an external website (not on the android machine) to load the test.html (renamed index.html) at http://104.131.76.201:5000/
 this works fine on Desktop but not on the mobile browser (iphone or android) and not in the mobile app i made.
-
+The HTML file hosted on this server is [index.html](index.html)
 HELP!
