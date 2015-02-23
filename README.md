@@ -61,3 +61,6 @@ I've tried using an external website (not on the android machine) to load the te
 this works fine on Desktop but not on the mobile browser (iphone or android) and not in the mobile app i made.
 The HTML file hosted on this server is [index.html](index.html)
 HELP!
+
+###things to try
+Try using this to get around the cross origin error https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage (courtesy of Matt Luo who I met through UofTHacks 2015 http://stackoverflow.com/users/631599/matt)
